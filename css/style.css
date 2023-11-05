@@ -125,5 +125,33 @@ nav a.active {
       animation: none !important;
   }
 }
+}
 
+@media (min-width: 769px) and (max-width: 1024px) {
+  main {
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    gap: 20px;
+  }
+
+  .profile {
+    padding: 30px;
+  }
+
+  h1 {
+    font-size: 36px;
+  }
+
+  h2, h3 {
+    font-size: 24px;
+  }
+
+  img {
+    border: 4px solid #190933;
+    padding: 15px;
+    margin: 30px;
+  }
+
+  list {
+    margin-left: 70px;
+  }
 }
