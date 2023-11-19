@@ -129,7 +129,7 @@ nav a.active {
 
 @media (min-width: 769px) and (max-width: 1024px) {
   main {
-    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(100%, 1fr));
     gap: 20px;
   }
 
